@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: lightgrey;
+    border-radius: 0 0 10px 10px;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+li a{
+    display: block;
+    color: #001221;
+    text-decoration: none;
+    margin: 10px 5px;
+    padding: 10px 15px;
+    text-align: center;
+    border-bottom: 2px solid snow;
+}
+li:last-child{
+    border-bottom: none;
+}
+li a:hover{
+    background-color: #2c333a;
+    color: bisque;
+    border-radius: 5px;
+}
+li a.active{
+    background-color: lightgreen;
+    color: lightslategray;
+    border-radius: 0;
+}
+li a:hover:not(.active){
+    background-color: #2c333a;
+    color: white;
+}

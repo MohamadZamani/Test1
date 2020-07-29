@@ -1,0 +1,87 @@
+input.form{
+    width: 30%;
+    padding: 10px 10px;
+    margin: 10px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: solid darkred;
+    outline: none;
+}
+input[class=form]:focus{
+    background-color: #b8ff9d;
+    color: #001221;
+    transition: 1s;
+}
+
+input.form1{
+    width: 30%;
+    padding: 10px 10px;
+    margin: 10px;
+    box-sizing: border-box;
+    outline: none;
+    border: 2px solid lightsteelblue;
+    transition: 1s;
+}
+input[class=form1]:focus{
+    border: 2px solid darkred;
+    background-color: oldlace;
+}
+input.form2{
+    width: 10%;
+    margin: 5px 10px;
+    box-sizing: border-box;
+    border: 2px solid #2c333a;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 10px 10px 10px 40px;
+    position: relative;
+    outline: none;
+    opacity: 0.5;
+    transition: 1s ease-in-out;
+}
+div form.third label{
+    position: relative;
+    padding: 5px 5px;
+    font-size: 25px;
+    color: crimson;
+    left: 49px;
+    z-index: 1;
+    top: 4px;
+    opacity: 0.3;
+    transition: opacity 0.5s ease-in-out;
+}
+input[class=form2]:focus{
+    border: 2px solid maroon;
+    width: 50%;
+    opacity: 1;
+    transition: 1s;
+}
+label[class=form2]:hover{
+    opacity: 1;
+    color: crimson;
+    transition: opacity 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+form textarea{
+    width: 700px;
+    height: 300px;
+    padding: 5px 10px;
+    border: 2px solid #6a6f6c;
+    box-sizing: border-box;
+    background-color: #b8ff9d;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: "Cambria Math",sans-serif;
+    resize: none;
+    outline: none;
+    text-align: center;
+    margin-left: 20%;
+ }
+form textarea:focus{
+    border: 2px solid #001221;
+}
+
+div.person{
+    text-align: center;
+}
