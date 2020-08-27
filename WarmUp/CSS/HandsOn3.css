@@ -1,0 +1,65 @@
+ol {
+    display: inline-block;
+}
+#Third {
+    color: red;
+}
+li.Special {
+    color: red;
+}
+a {
+    text-decoration: none;
+    font-size: 25px;
+    margin: 10px;
+    display: inline-block
+}
+[target] {
+    border: 2px solid darkgreen;
+    padding: 5px;
+}
+#No_5:link {
+    color: crimson;
+}
+#No_5:visited {
+    color: cadetblue;
+}
+#No_5:hover {
+    color:chartreuse;
+}
+#No_5:active {
+    color: darkgray;
+}
+#No_6 {
+    font-size: 25px;
+    display: inline-block;
+    max-width: 50%;
+    text-align: center;
+    float: right;
+    margin-right: 50px;
+}
+#No_6::first-letter{
+    color: cornflowerblue;
+    font-weight: bolder;
+    font-size: 50px;
+}
+#No_6::first-line {
+    font-weight: bolder;
+    color: cornflowerblue;
+}
+
+#Ex_6_9 {
+    text-align: center;
+    font-size: 25px;
+}
+#No_6_2 p {
+    color: red;
+}
+#No_7 > p {
+    color: greenyellow;
+}
+#No_8 ~ p {
+    color: blueviolet;
+}
+#No_9 + p {
+    color: darksalmon;
+}

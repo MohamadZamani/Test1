@@ -1,0 +1,38 @@
+body {
+    text-align: justify;
+/*    text-justify: inter-word;*/
+    flex-direction: column;
+}
+p {
+    font : 2rem/1.5 sans-serif;
+    margin: 100px;
+    max-width: 1000px;
+    min-width: 100px;
+}
+p::first-letter {
+    font-size: 5rem;
+    line-height: 0.5;
+    text-shadow: 10px 1px 7px gray;
+}
+p::first-line {
+    color: cadetblue;
+    text-indent: 3rem;
+}
+
+#one {
+    font-family: 'Baloo Tamma 2', cursive;
+/*    line-height: 3rem;*/
+}
+#two {
+    font-family: 'Do Hyeon', sans-serif;
+}
+#three {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+
+div {
+    font : italic Bold 7rem 'sitka small';
+    text-align: center;
+    text-shadow: 10px 0 5px darkred;
+}
