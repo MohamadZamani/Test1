@@ -1,0 +1,39 @@
+html {
+    font-size: 2rem;
+}
+ul {
+    list-style: none;
+}
+li {
+    border: 3px solid gray;
+    border-radius: 50px;
+    display: inline-block;
+    float: right;
+}
+a {
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    border: 3px solid darkred;
+    border-radius: 50px;
+    margin: 10px;
+}
+a:hover {
+    color: gray;
+    transition: 0.5s;
+    margin: 0;
+    border: 1px solid gray;
+    padding: 22px;
+    transform-origin: center;
+    transform: rotate(360deg);
+    animation-delay: 0.25s;
+}
+a:active {
+    color: cornsilk;
+    background-color: cornflowerblue;
+}
+li:hover{
+    border: 3px solid darkred;
+    transition: 0.5s;
+    transition-delay: 0.25s;
+}

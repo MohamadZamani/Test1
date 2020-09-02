@@ -1,0 +1,33 @@
+body {
+    display: flex;
+/*
+    flex-direction: row;
+    flex-wrap: wrap;
+*/
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    height: 800px;
+}
+div {
+    width: 150px;
+    height: 150px;
+/*    border: 2px solid darkred;*/
+/*    text-align: center;*/
+    margin: 1em;
+    border-radius: 50%;
+}
+div#Logo {
+    background: no-repeat center /cover url(../Img/Webinode.jpg);
+}
+div#BrandName {
+/*    border: 2px solid red;*/
+    text-align: center;
+    display: inline-block;
+}
+span{
+    display: flex;
+    flex-direction: row-reverse;
+/*    border: 1px solid green;*/
+    font: italic bolder 3rem/1 'sitka small';
+    text-shadow: 3px 0 3px skyblue;
+}

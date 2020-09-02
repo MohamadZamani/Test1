@@ -1,0 +1,19 @@
+div {
+    display: inline-block;
+    border: 2px dashed darkred;
+    border-radius: 45%;
+    width: 100px;
+    height: 50px;
+}
+.box1 {
+    background-color: aquamarine;
+}
+.box2 {
+    background-color: greenyellow;
+}
+.box3 {
+    background-color: palevioletred;
+}
+.box4 {
+    background-color: palegoldenrod;
+}
