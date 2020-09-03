@@ -1,23 +1,18 @@
-div.Male {
+div {
     width: 250px;
     height: 250px;
-    border: 1px solid darkcyan;
     margin: 7px;
     border-radius: 100%;
-    background-image: url("../Img/man.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     display: inline-block;
 }
+div.Male {
+    border: 1px solid darkcyan;
+    background-image: url("../Img/man.jpg");
+}
 
 div.Female {
-    width: 250px;
-    height: 250px;
     border: 1px solid darkred;
-    margin: 7px;
-    border-radius: 100%;
     background-image: url("../Img/woman.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: inline-block;
 }
