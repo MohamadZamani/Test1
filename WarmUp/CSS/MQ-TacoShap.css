@@ -1,0 +1,38 @@
+nav, li, ul, section, main {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-flow: row wrap;
+/*    formatting*/
+    width: 80%;
+    margin: 20px auto;
+    border: 2px solid rgba(255, 101, 69, 0.4);
+}
+nav {
+    width: 100%;
+    border: 2px solid red;
+    font: bold 1.2em "sitka small", serif;
+}
+main {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid red;
+    font: italic 1.2em "sitka small", sans-serif;
+    text-align: justify;
+}
+ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+li {
+    list-style-type: none;
+    padding: 10px;
+}
+section {
+    margin-bottom: 10px;
+}
