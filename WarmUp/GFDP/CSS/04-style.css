@@ -1,0 +1,18 @@
+ul {
+    width: 100%;
+    list-style: none;
+    background-color: deepskyblue;
+}
+
+a {
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 0;
+    color: whitesmoke;
+    font: 1.2em "sitka small", serif;
+    border-top: 2px solid rgba(51, 204, 255, 0.8);
+    border-bottom: 2px solid rgba(0, 102, 153, 0.5);
+}
+a:hover {
+    background-color: dodgerblue;
+}

@@ -1,0 +1,9 @@
+ul {
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    border-bottom: 3px solid rgba(71, 71, 107, 0.3);
+}
+a {
+    padding: 1em;
+    border: none;
+}

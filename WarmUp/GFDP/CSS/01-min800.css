@@ -1,0 +1,16 @@
+body {
+    width:800px;
+}
+.c1 {
+    width: 100%;
+    min-height: 50px;
+}
+.c2, .c3 {
+    width: 50%;
+    min-height: 150px;
+}
+
+.c4, .c5, .c6 {
+    width: 33.33%;
+    min-height: 100px;
+}
