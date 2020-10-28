@@ -1,0 +1,30 @@
+body, html, div {
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+}
+#atf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border: 40px double rgba(115, 38, 77, 0.5);
+}
+p {
+    font-size: 4rem;
+    text-align: center;
+    font-family: 'B Badkonak', sans-serif;
+    color: rgba(255, 204, 229, 0);
+    background-size: 200% 100%;
+    background-color: #862d59;
+    transition: 2.5s;
+    cursor: default;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(-72deg, transparent 0, transparent 5%, rgba(230, 230, 255, 0.884), rgba(230, 230, 255, 0.986), transparent 20%, transparent 100%);
+}
+p:hover {
+    background-position: -140% 0;
+}
+img

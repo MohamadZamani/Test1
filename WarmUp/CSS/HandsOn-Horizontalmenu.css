@@ -1,39 +1,37 @@
-html {
-    font-size: 2rem;
-}
+
 ul {
-    list-style: none;
+    list-style-type: none;
+    display: block;
+/*    box-sizing: border-box;*/
 }
 li {
+    padding: 5px;
     border: 3px solid gray;
     border-radius: 50px;
-    display: inline-block;
     float: right;
+    /* display: inline-block; */
+    margin: 5px;
+/*    box-sizing: border-box;*/
 }
+
 a {
-    padding: 10px;
-    text-decoration: none;
     display: inline-block;
-    border: 3px solid darkred;
+    font-size: 15px;
+    text-decoration: none;
+    border: 2px solid rgb(98, 202, 50);
     border-radius: 50px;
-    margin: 10px;
+    padding: 10px;
+/*    box-sizing: border-box;*/
 }
+
 a:hover {
-    color: gray;
-    transition: 0.5s;
-    margin: 0;
-    border: 1px solid gray;
-    padding: 22px;
-    transform-origin: center;
-    transform: rotate(360deg);
-    animation-delay: 0.25s;
+    background-color: darkgray;
+    border: 2px dashed white;
+    color: floralwhite;
 }
-a:active {
-    color: cornsilk;
-    background-color: cornflowerblue;
-}
-li:hover{
+
+li:hover {
     border: 3px solid darkred;
-    transition: 0.5s;
-    transition-delay: 0.25s;
 }
+
+
